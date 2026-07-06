@@ -22,55 +22,40 @@ function Home() {
         </Navbar>
       </div>
       <div className="home-card-container" style={{ paddingTop: "80px" }}>
-        <Card>
-          <div className="home-card-content">
-            <h2>know bout me</h2>
-            <p>
-              hey there! i'm <span className="home-card-content-name">rishab karki</span> — an undergraduate computer science student passionate
-              about learning and building projects. I have a strong interest in software engineering, web development, backend system,
-              cybersecurity and artificial intelligence.
-              <br />
+        <div className="home-card-content">
+          <h2>About Me</h2>
+          <p>
+            Hey, I'm <span className="home-card-content-name">Rishab Karki</span> — an undergraduate computer science student passionate
+            about building and learning.
+          </p>
+          <h4>Areas of interest:</h4>
+          <ul>
+            <li>Backend Development</li>
+            <li>Linux</li>
+            <li>Artificial Intelligence (Machine Learning specifically)</li>
+            <li>Cybersecurity</li>
+            <li>System Programming</li>
+          </ul>
 
-              <h3>what am i even doing?</h3>
-
-              <strong className="home-card-content-answer quote">
-                understanding software engineering, learning new technologies and building cool projects just to learn more.
-              </strong>
-              <br />
-            </p>
-
-            <p>i enjoy experimenting across</p>
-            <ul>
-              <li>backend system</li>
-              <li>cybersecurity</li>
-              <li>artificial intelligence</li>
-              <li>devops</li>
-              <li>computer graphics</li>
-            </ul>
-
-            <p>
-              i thrive on exploring new tools, sharpening my skills and finding better ways to write clean,
-              effective code.
-            </p>
-
-            <h3>languages that i know</h3>
-            <ul>
-              <li>go</li>
-              <li>typescript</li>
-              <li>python</li>
-              <li>c/c++</li>
-            </ul>
-            <p>              <Button onClick={() => { window.open('mailto:rishabkarki78@gmail.com', "_blank") }}>
-              contact me
+          <h3>Technical Skills</h3>
+          <ul>
+            <li>Programming Languages: Go・Python・Typescript・C/CPP・Rust</li>
+            <li>Backend: GoFiber・Express・FastAPI・Django</li>
+            <li>Databases: PostgreSQL・MySQL・Redis・MongoDB</li>
+            <li>Version Control &amp; Collaboration: Git・Github・Codeberg</li>
+            <li>DevOPS &amp; Infrastructure: Docker・Linux・Bare Metal Servers・Nginx </li>
+          </ul>
+          <p>
+            <Button onClick={() => { window.open('mailto:rishabkarki78@gmail.com', "_blank") }}>
+              Contact Me
             </Button>
-              <br />
-              <h3>socials</h3>
-              <Contact />
-            </p>
-          </div>
-        </Card>
-      </div>
-    </div>
+            <br />
+            <h3>Socials</h3>
+            <Contact />
+          </p>
+        </div>
+      </div >
+    </div >
   );
 }
 

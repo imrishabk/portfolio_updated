@@ -1,29 +1,28 @@
 .home-card-container {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .home-card-content {
-    text-align: justify;
-    word-spacing: 40%;
-    line-height: 140%;
+  text-align: justify;
+  line-height: 140%;
 }
 
 .home-card-content-name {
-    font-size: large;
-    font-weight: bolder;
+  font-size: large;
+  font-weight: bolder;
 }
 
 .quote {
-    font-style: oblique;
-    font-size: 90%;
+  font-style: oblique;
+  font-size: 90%;
 }
 
 .quote::before {
-    content: "\201C";
+  content: "\201C";
 }
 
 .quote::after {
-    content: "\201D";
+  content: "\201D";
 }
