@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import Card from "../components/Card";
 import Navbar from "../components/Navbar";
 import "./Home.css";
 import Contact from "../components/Contact";
@@ -50,7 +49,6 @@ function Home() {
               Contact Me
             </Button>
             <br />
-            <h3>Socials</h3>
             <Contact />
           </p>
         </div>
