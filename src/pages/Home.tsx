@@ -17,7 +17,7 @@ function Home() {
     <div className="home-container">
       <div>
         <Navbar navItems={navItems}>
-          <a href="/">imrishhh</a>
+          <a href="/">Rishab Karki</a>
         </Navbar>
       </div>
       <div className="home-card-container" style={{ paddingTop: "80px" }}>
